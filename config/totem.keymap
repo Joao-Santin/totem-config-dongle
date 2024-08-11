@@ -125,7 +125,7 @@ label= "SYM"                              ;
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃   PSCRN   ┃   C_PRV   ┃   C_NX    ┃   C_PP    ┃           ┃   ┃     -     ┃     =     ┃     [     ┃      ]    ┃   \       ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃           ┃           ┃    V_DN   ┃    V_UP   ┃    V_MT   ┃           ┃   ┃     _     ┃      +    ┃     {     ┃     }     ┃   "|"     ┃      '    ┃
+// ┃  tg game  ┃           ┃    V_DN   ┃    V_UP   ┃    V_MT   ┃           ┃   ┃     _     ┃      +    ┃     {     ┃     }     ┃   "|"     ┃      '    ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃    `      ┃ tg game   ┃    ENT    ┃   ┃   SPC     ┃           ┃   GUI     ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -134,8 +134,8 @@ label= "SYM"                              ;
 
                 &kp EXCL    &kp AT       &kp HASH     &kp DLLR   &kp PRCNT      &kp CARET   &kp AMPS    &kp ASTRK   &kp LPAR     &kp RPAR
                 &kp PSCRN   &kp C_PREV   &kp C_NEXT   &kp C_PP   &trans         &kp MINUS   &kp EQUAL   &kp LBKT    &kp RBKT     &kp BSLH
-    &trans      &trans      &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans         &kp UNDER   &kp PLUS    &kp LBRC    &kp RBRC     &kp PIPE    &kp SQT
-                                         &kp GRAVE    &tog GAME  &kp RET        &kp SPACE   &trans      &kp LGUI
+    &tog GAME   &trans      &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans         &kp UNDER   &kp PLUS    &kp LBRC    &kp RBRC     &kp PIPE    &kp SQT
+                                         &kp GRAVE    &trans  &kp RET        &kp SPACE   &trans      &kp LGUI
                         >;
                 };
 
@@ -149,16 +149,18 @@ label= "GAME"                              ;
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃  SHIFT    ┃       A   ┃     W     ┃      D    ┃     2     ┃   ┃           ┃    LFT    ┃    UP     ┃    RGHT   ┃           ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃     F     ┃     CTRL  ┃      Z    ┃     S     ┃    C      ┃     3     ┃   ┃     ALT   ┃           ┃    DOWN   ┃           ┃           ┃           ┃
+// ┃           ┃     CTRL  ┃      Z    ┃     S     ┃    C      ┃     3     ┃   ┃     ALT   ┃           ┃    DOWN   ┃           ┃           ┃           ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃     X     ┃  GAME2/V  ┃    SPC    ┃   ┃     ENTER ┃           ┃   GUI     ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
+
+
                 &kp TAB     &kp Q       &kp R       &kp E       &kp N1           &trans     &trans      &trans      &trans      &trans
                 &kp LSHFT   &kp A       &kp W       &kp D       &kp N2           &trans     &kp LEFT    &kp UP      &kp RIGHT   &trans
-    &kp F       &kp LCTRL   &kp Z       &kp S       &kp C       &kp N3           &kp LALT   &trans      &kp DOWN    &trans      &trans    &kp ESC
+    &trans      &kp LCTRL   &kp Z       &kp S       &kp C       &kp N3           &kp LALT   &trans      &kp DOWN    &trans      &trans    &kp ESC
                                         &kp X       &lt GAME2 V &kp SPACE        &kp RET    &mo SYM     &kp LGUI
                         >;
                 };
