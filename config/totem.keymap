@@ -159,7 +159,7 @@ label= "GAME"                              ;
                 &kp TAB     &kp Q       &kp R       &kp E       &kp N1           &trans     &trans      &trans      &trans      &trans
                 &kp LSHFT   &kp A       &kp W       &kp D       &kp N2           &trans     &kp LEFT    &kp UP      &kp RIGHT   &trans
     &kp F       &kp LCTRL   &kp Z       &kp S       &kp C       &kp N3           &kp LALT   &trans      &kp DOWN    &trans      &trans    &trans
-                                        &kp X       &lt GAME2 V &kp SPACE        &kp RET   &trans   &kp LGUI
+                                        &kp X       &lt GAME2 V &kp SPACE        &kp RET    &lt SYM ESC   &kp LGUI
                         >;
                 };
 
