@@ -74,17 +74,17 @@ label= "BASE"                              ;
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃     A     ┃     S     ┃     D     ┃     F     ┃     G     ┃   ┃     H     ┃     J     ┃     K     ┃     L     ┃     ;     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃  CTRL     ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     N     ┃     M     ┃     ,     ┃     .     ┃     /     ┃    SHIFT  ┃
+// ┃  CTRL     ┃     Z     ┃     X/GUI ┃     C     ┃     V     ┃     B     ┃   ┃     N     ┃     M     ┃     ,     ┃     .     ┃     /     ┃      '    ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃    ALT    ┃  L1/TAB   ┃    ENT    ┃   ┃   SPC     ┃  L2/ESC   ┃   BSPC    ┃
+//                                     ┃    ALT    ┃  L1/TAB   ┃    ENT    ┃   ┃   SPC     ┃  L2/BSPC  ┃   SHIFT   ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
-                &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp SEMI
-    &kp LCTRL   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp LSHFT
-                                        &kp LALT    &lt NAV TAB &kp RET         &kp SPACE   &lt SYM ESC &kp BSPC
+                &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U        &kp I       &kp O       &kp P
+                &kp A       &kp S       &kp D       &kp F       &kp G           &kp H       &kp J        &kp K       &kp L       &kp SEMI
+    &kp LCTRL   &kp Z       &mt LGUI X  &kp C       &kp V       &kp B           &kp N       &kp M        &kp COMMA   &kp DOT     &kp FSLH    &kp SQT
+                                        &kp LALT    &lt NAV TAB &kp RET         &kp SPACE   &lt SYM BSPC &kp LSHFT
                         >;
                 };
 
@@ -96,7 +96,7 @@ label= "NAV"                              ;
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃     1     ┃     2     ┃     3     ┃     4     ┃     5     ┃   ┃     6     ┃     7     ┃     8     ┃     9     ┃     0     ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃   BTCLEAR ┃   BT1     ┃   BT2     ┃   BT3     ┃    BT4    ┃   ┃     LFT   ┃   DWN     ┃    UP     ┃   RGT     ┃           ┃
+//             ┃   BTCLEAR ┃   BT1     ┃   BT2     ┃   BT3     ┃    BT4    ┃   ┃     LFT   ┃   DWN     ┃    UP     ┃   RGT     ┃     ESC   ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃  f1       ┃     f2    ┃    f3     ┃    f4     ┃    f5     ┃    f6     ┃   ┃     f7    ┃     f8    ┃    f9     ┃   f10     ┃   f11     ┃    f12    ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -106,7 +106,7 @@ label= "NAV"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp N1      &kp N2       &kp N3       &kp N4       &kp N5       &kp N6      &kp N7      &kp N8      &kp N9      &kp N0
-                &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &trans
+                &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp ESC
      &kp F1     &kp F2      &kp F3       &kp F4       &kp F5       &kp F6       &kp F7      &kp F8      &kp F9      &kp F10     &kp F11     &kp F12
                                          &kp DEL      &trans       &kp RET      &kp SPACE   &trans      &kp LGUI
                         >;
@@ -125,17 +125,17 @@ label= "SYM"                              ;
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃   PSCRN   ┃   C_PRV   ┃   C_NX    ┃   C_PP    ┃           ┃   ┃     -     ┃     =     ┃     [     ┃      ]    ┃   \       ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃  tg game  ┃           ┃    V_DN   ┃    V_UP   ┃    V_MT   ┃           ┃   ┃     _     ┃      +    ┃     {     ┃     }     ┃   "|"     ┃      '    ┃
+// ┃  tg game  ┃           ┃    V_DN   ┃    V_UP   ┃    V_MT   ┃           ┃   ┃     _     ┃      +    ┃     {     ┃     }     ┃   "|"     ┃     `     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃    `      ┃ tg game   ┃    ENT    ┃   ┃   SPC     ┃           ┃   GUI     ┃
+//                                     ┃           ┃           ┃    ENT    ┃   ┃   SPC     ┃           ┃   GUI     ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp EXCL    &kp AT       &kp HASH     &kp DLLR   &kp PRCNT      &kp CARET   &kp AMPS    &kp ASTRK   &kp LPAR     &kp RPAR
                 &kp PSCRN   &kp C_PREV   &kp C_NEXT   &kp C_PP   &trans         &kp MINUS   &kp EQUAL   &kp LBKT    &kp RBKT     &kp BSLH
-    &tog GAME   &trans      &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans         &kp UNDER   &kp PLUS    &kp LBRC    &kp RBRC     &kp PIPE    &kp SQT
-                                         &kp GRAVE    &trans  &kp RET        &kp SPACE   &trans      &kp LGUI
+    &tog GAME   &trans      &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &trans         &kp UNDER   &kp PLUS    &kp LBRC    &kp RBRC     &kp PIPE    &kp GRAVE
+                                         &trans       &trans     &trans         &trans   &trans      &trans
                         >;
                 };
 
